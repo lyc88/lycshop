@@ -33,6 +33,8 @@
 *.iml
 *.ipr
 .idea/
+target/
+out/
 ### NetBeans ###
 nbproject/private/
 build/
