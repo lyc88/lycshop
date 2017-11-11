@@ -1,0 +1,9 @@
+com\lycshop\service\ItemCatService.class
+com\lycshop\service\ItemDescService.class
+com\lycshop\service\ContentService.class
+com\lycshop\service\ItemParamItemService.class
+com\lycshop\service\ItemParamService.class
+com\lycshop\service\BaseService.class
+com\lycshop\service\ItemService.class
+com\lycshop\service\PropertieService.class
+com\lycshop\service\ContentCategoryService.class
