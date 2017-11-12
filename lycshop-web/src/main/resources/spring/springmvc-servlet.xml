@@ -8,13 +8,13 @@
         http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd">
 	
 	<!-- 注解驱动 -->
-	<mvc:annotation-driven><!--
+	<mvc:annotation-driven>
 		<mvc:message-converters register-defaults="true">
 
-			<bean class="com.taotao.common.spring.exetend.converter.json.CallbackMappingJackson2HttpMessageConverter">
+			<bean class="com.lycshop.CallbackMappingJackson2HttpMessageConverter">
 				<property name="callbackName" value="callback"/>
 			</bean>
-		</mvc:message-converters>-->
+		</mvc:message-converters>
 		
 				
 	</mvc:annotation-driven>

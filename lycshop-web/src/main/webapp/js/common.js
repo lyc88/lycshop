@@ -184,9 +184,9 @@ var TT = TAOTAO = {
     
     changeItemParam : function(node,formId){
     	$.getJSON("/rest/item/param/query/itemcatid/" + node.id,function(data){
-			  if(data.status == 200 && data.data){
+			  if(data){
 				 $("#"+formId+" .params").show();
-				 var paramData = JSON.parse(data.data.paramData);
+				 var paramData = JSON.parse(data.paramData);
 				 var html = "<ul>";
 				 for(var i in paramData){
 					 var pd = paramData[i];

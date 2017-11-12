@@ -34,7 +34,7 @@ public class ItemParamController {
             if (null == itemParam) {
                 return ResponseEntity.status(HttpStatus.OK).body(null);
             }
-            return ResponseEntity.ok(itemParam);
+            return ResponseEntity.status(HttpStatus.OK).body(itemParam);
         } catch (Exception e) {
             // TODO Auto-generated catch block
             e.printStackTrace();

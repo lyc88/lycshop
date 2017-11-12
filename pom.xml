@@ -13,6 +13,8 @@
         <module>lycshop-mapper</module>
         <module>lycshop-service</module>
         <module>lycshop-web</module>
+        <module>lycshop-front</module>
+        <module>lycshop-httpclient</module>
     </modules>
     <packaging>pom</packaging>
     <!-- 集中定义依赖版本号 -->
